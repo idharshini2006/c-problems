@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main() {
+    int a,b;
+    char operation;
+    scanf("%d %d %c",&a,&b,&operation);
+    switch (operation) {
+        case '+':
+            printf("Result=%d",a+b);
+            break;
+        case '-':
+            printf("Result=%d",a-b);
+            break;
+        case '*':
+            printf("Result=%d",a*b);
+            break;
+        case '/':
+            printf("Result=%d",a/b);
+            break;
+        default:
+            printf("invalid input");
+            break;
+    }
+    return 0;
+}
