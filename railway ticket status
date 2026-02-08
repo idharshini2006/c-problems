@@ -2,16 +2,11 @@
 int main() {
     int a;
     scanf("%d",&a);
-    switch (a) {
-        case 5:
-            printf("Confirmed");
-            break;
-        case 0:
-            printf("Waiting list");
-            break;
-        case 1:
-            printf("Confirmed");
-            break;
+    if(a>0){
+     printf("Condirmed");
     }
-    return 0;
+    else{
+     printf("Waiting List");
+    }
+  return 0;
 }
