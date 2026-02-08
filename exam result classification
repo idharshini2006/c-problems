@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int marks;
+    scanf("%d",&marks);
+    if (marks<55) {
+        printf("Fail");
+    }
+    else if (marks<85) {
+        printf("Pass");
+    }
+    else {
+        printf("Distiction");
+    }
+    return 0;
+}
