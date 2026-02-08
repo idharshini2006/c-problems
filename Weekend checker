@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int day;
+    scanf("%d",&day);
+    if (day==6 || day==7) {
+        printf("Weekend");
+    }
+    else if (day>=1 && day<6) {
+        printf("Weekday");
+    }
+    else {
+        printf("Error! please enter input between 1-7");
+    }
+    return 0;
+}
