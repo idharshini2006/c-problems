@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+    int value;
+    scanf("%d",&value);
+    if (value>=499) {
+        printf("Free delivery");
+    }
+    else {
+        printf("Delivery charges apply");
+    }
+    return 0;
+}
