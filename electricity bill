@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main() {
+    int units;
+    scanf("%d units",&units);
+    if (units<=100) {
+        printf("Bill amount=Rs.%d",units*4);
+    }
+    else {
+        if (units>100) {
+            printf("Bill amount=Rs.%d",((100*4)+(units-100)*10));
+        }
+    }
+    return 0;
+}
