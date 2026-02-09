@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int vehicle,parkedHours;
+    scanf("%d %d",&vehicle,&parkedHours);
+    switch (vehicle) {
+        case 1:
+            printf("Parking fee Rs.%d",10*parkedHours);
+            break;
+        case 2:
+            printf("Parking fee Rs.%d",20*parkedHours);
+            break;
+        default:
+            printf("Parking fee Rs.%d",20*parkedHours);
+            break;
+    }
+    return 0;
+}
