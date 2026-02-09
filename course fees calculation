@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main() {
+    int mode,category;
+    scanf("%d %c",&mode,&category);
+    switch (mode) {
+        case 1:
+            if (category=='R') {
+                printf("Rs.5000");
+            }
+            else {
+                printf("Rs.3000");
+            }
+            break;
+        case 2:
+            if (category=='R') {
+                printf("Rs.9000");
+            }
+            else {
+                printf("Rs.7000");
+            }
+            break;
+    }
+    return 0;
+}
