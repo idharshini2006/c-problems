@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main() {
+    int connectionType,units;
+    scanf("%d %d",&connectionType,&units);
+    switch (connectionType) {
+        case 1:
+            if (units<=100) {
+                printf("Bill Rs.%d",units*3);
+            }
+            else {
+                printf("Bill Rs.%d",units*5);
+            }
+            break;
+        case 2:
+            if (units<=100) {
+                printf("Bill Rs.%d",units*7);
+            }
+            else {
+                printf("Bill Rs.%d",units*10);
+            }
+            break;
+    }
+    return 0;
+}
