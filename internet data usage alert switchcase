@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main() {
+    int planType;
+    float dataUsed;
+    scanf("%d %f",&planType,&dataUsed);
+    switch (planType) {
+        case 1:
+            if (dataUsed<=1.0) {
+                printf("Normal speed");
+            }
+            else {
+                printf("Speed Reduced");
+            }
+            break;
+        case 2:
+            if (dataUsed<=2.0) {
+                printf("Nomal speed");
+            }
+            else {
+                printf("speed Reduced");
+            }
+            break;
+    }
+    return 0;
+}
