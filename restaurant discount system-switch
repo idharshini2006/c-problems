@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int customerType,billAmount,payment;
+    scanf("%d %d",&customerType,&billAmount);
+    switch (customerType) {
+        case 1:
+            payment=billAmount-(billAmount*5/100);
+            printf("Rs.%d",payment);
+            break;
+        case 2:
+            payment=billAmount-(billAmount*15/100);
+            printf("Rs.%d",payment);
+            break;
+    }
+    return 0;
+}
