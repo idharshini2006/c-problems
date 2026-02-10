@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int distance;
+    scanf("%d",&distance);
+    switch (distance) {
+        case 1:
+            printf("Transport fee Rs.800");
+            break;
+        case 2:
+            printf("Transport fee Rs.1200");
+            break;
+        case 3:
+            printf("Transport fee Rs.1800");
+            break;
+        default:
+            printf("Error! please enter 1 to 3");
+            break;
+    }
+    return 0;
+}
