@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main() {
+    int planType,paymentMode;
+    scanf("%d %d",&planType,&paymentMode);
+    switch (planType) {
+        case 1:
+            if (paymentMode==11 || paymentMode==12) {
+                printf("Pay Rs.179");
+            }
+            else {
+                printf("Pay Rs.199");
+            }
+            break;
+        case 2:
+            if (paymentMode==11 || paymentMode==12) {
+                printf("Pay Rs.379");
+            }
+            else {
+                printf("Pay Rs.399");
+            }
+            break;
+    }
+    return 0;
+}
