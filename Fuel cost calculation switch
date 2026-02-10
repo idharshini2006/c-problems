@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int fuel,litre;
+    scanf("%d %d",&fuel,&litre);
+    switch (fuel) {
+        case 1:
+            printf("Fuel Cost Rs.%d",litre*105);
+            break;
+        case 2:
+            printf("Fuel Cost Rs.%d",litre*92);
+            break;
+        case 3:
+            printf("Fuel Cost Rs.%d",litre*85);
+            break;
+        default:
+            printf("Error!please enter 1 to 3");
+            break;
+    }
+    return 0;
+}
