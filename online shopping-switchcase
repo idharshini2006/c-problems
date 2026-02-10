@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int deliveryMode;
+    scanf("%d",&deliveryMode);
+    switch (deliveryMode) {
+        case 1:
+            printf("Delivery Charge Rs.40");
+            break;
+        case 2:
+            printf("Delivery Charge Rs.120");
+            break;
+        case 3:
+            printf("Delivery Charge Rs.0");
+            break;
+        default:
+            printf("Please enter valid input");
+            break;
+    }
+    return 0;
+}
