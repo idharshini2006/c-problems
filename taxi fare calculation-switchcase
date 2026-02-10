@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int vehicle,distance;
+    scanf("%d %d",&vehicle,&distance);
+    switch (vehicle) {
+        case 1:
+            printf("Fare Rs.%d",distance*10);
+            break;
+        case 2:
+            printf("Fare Rs.%d",distance*15);
+            break;
+        case 3:
+            printf("Fare Rs.%d",distance*20);
+            break;
+        default:
+            printf("please enter 1 to 3");
+            break;
+    }
+    return 0;
+}
