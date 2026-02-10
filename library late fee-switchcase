@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int bookType,day;
+    scanf("%d %d",&bookType,&day);
+    switch (bookType) {
+        case 1:
+            printf("Late Fee %d",2*day);
+            break;
+        case 2:
+            printf("Late Fee %d",5*day);
+            break;
+        default:
+            printf("Enter 1 or 2");
+            break;
+    }
+    return 0;
+}
