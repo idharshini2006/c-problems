@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main() {
+    int class,age,fare;
+    scanf("%d %d",&class,&age);
+    switch (class) {
+        case 1:
+            fare=300;
+            if (age<12) {
+                fare=fare-(fare*50)/100;
+                printf("Fare Rs.%d",fare);
+            }
+            else if (age>=60) {
+                fare=fare-(fare*33)/100;
+                printf("Fare Rs.%d",fare);
+            }
+            else {
+                printf("Fare Rs.300");
+            }
+            break;
+        case 2:
+            fare=1000;
+            if (age<12) {
+                fare=fare-(fare*50)/100;
+                printf("Fare Rs.%d",fare);
+            }
+            else {
+                printf("Fare Rs.1000");
+            }
+            break;
+    }
+    return 0;
+}
