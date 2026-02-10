@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int warrenty;
+    scanf("%d",&warrenty);
+    switch (warrenty) {
+        case 1:
+            printf("Under warrenty");
+            break;
+        case 2:
+            printf("Limited warrenty");
+            break;
+        case 3:
+            printf("Out of warrenty");
+            break;
+        default:
+            printf("Error! Please enter 1 to 3");
+            break;
+    }
+    return 0;
+}
