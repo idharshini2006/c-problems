@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main() {
+    for (int i=1;i<=5;i++) {
+        for (int k=1;k<=5-i;k++) {
+            printf(" ");
+        }
+        for (int j=1;j<=2*i-1;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    for (int l=5;l>=1;l--) {
+        for (int m=1;m<=5-l;m++) {
+            printf(" ");
+        }
+        for (int n=1;n<=2*l-1;n++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}//
+// Created by DELL on 12-02-2026.
+//
